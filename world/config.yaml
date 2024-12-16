@@ -1,0 +1,17 @@
+svcName: "world"
+
+http:
+  port: ":9090"
+
+mysql:
+  host: localhost
+  port: 3306
+  user: root
+  password: root
+  db: city
+  maxIdleConns: 5
+  maxOpenConns: 10
+  connMaxLifeTime: 1800
+
+otel_collector:
+  endpoint: "localhost:4317"

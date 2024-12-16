@@ -1,0 +1,10 @@
+svcName: "hello"
+
+http:
+  port: ":8080"
+
+world:
+  host: http://localhost:9090
+
+otel_collector:
+  endpoint: "localhost:4317"
